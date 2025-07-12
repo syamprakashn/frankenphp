@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  symfony:
+    ports:
+      - "443:443"
+    volumes:
+      - ./symfony:/app
+      - ./frankenphp.yaml:/etc/frankenphp/frankenphp.yaml
