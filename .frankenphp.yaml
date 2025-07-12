@@ -1,0 +1,10 @@
+apps:
+  http:
+    servers:
+      symfony:
+        listen: ":80"
+        routes:
+          - handle:
+              - file_server
+              - php_server
+        root: /app/public
