@@ -7,4 +7,10 @@
 /public/bundles/
 /var/
 /vendor/
+# Ignore Docker and dependency files
+Dockerfile
+docker-compose.yml
+composer.lock
+symfony.lock
+
 ###< symfony/framework-bundle ###
