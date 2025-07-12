@@ -1,0 +1,6 @@
+myfrankenphp.local
+
+root * /app/public
+php
+try_files {path} /index.php?{query}
+file_server
